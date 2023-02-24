@@ -13,3 +13,19 @@ md FrontEnd
 md Services
 
 
+*Migration na pasta do projeto
+====
+==Comandos usados no Powershell
+====
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add AddProductDataTableOnDB 
+dotnet ef migrations remove
+dotnet ef database update
+
+==== ou Comandos usados no Console do Gerenciados de Pacotes
+====
+add-migration AddProductDataTableOnDB
+remove-migration
+updade-database
+
+
