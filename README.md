@@ -21,6 +21,10 @@ dotnet tool install --global dotnet-ef
 dotnet ef migrations add AddProductDataTableOnDB 
 dotnet ef migrations remove
 dotnet ef database update
+==
+dotnet ef migrations add SeedProductDataTable
+dotnet ef database update
+
 
 ==== ou Comandos usados no Console do Gerenciados de Pacotes
 ====
