@@ -39,3 +39,12 @@ md foo
 cd foo
 dotnet new isui
 
+Renomear: "HomeController" para "MainModule"
+Apagar: "HomeController.cs"
+Colar o conteudi di "Duende\Quickstart" na "MainModule"
+
+
+Instalar no Gerenciador de Pacotes Nuget:
+Duende.IdentityServer.AspNetIdentity (versão 5)
+Microsoft.AspNetCore.Identity.EntityFramework (versão 6.0.14)
+Microsoft.AspNetCore.Identity.UI (versão 6.0.14)
