@@ -49,7 +49,7 @@ Duende.IdentityServer.AspNetIdentity (versão 5)
 Microsoft.AspNetCore.Identity.EntityFramework (versão 6.0.14)
 Microsoft.AspNetCore.Identity.UI (versão 6.0.14)
 
-
+*Migration na pasta do projeto: IdentityServer, para criar as tabelas e para atualizar o banco de dados
 dotnet ef migrations add AddDefaulSecurityTablesOnDB
-
+dotnet ef database update
 
