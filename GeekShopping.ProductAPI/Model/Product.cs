@@ -1,5 +1,5 @@
 ﻿using GeekShopping.ProductAPI.Model.Base;
-using Microsoft.EntityFrameworkCore.Metadata.Internal; //verificar se precisava disso
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -18,7 +18,7 @@ namespace GeekShopping.ProductAPI.Model
         [Range(1,10000)]
         public decimal Price { get; set; }
 
-        [Column ("description")]
+        [Column("description")]
         [StringLength(500)]
         public string Description { get; set; }
 
