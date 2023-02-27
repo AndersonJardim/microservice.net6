@@ -48,3 +48,8 @@ Instalar no Gerenciador de Pacotes Nuget:
 Duende.IdentityServer.AspNetIdentity (versão 5)
 Microsoft.AspNetCore.Identity.EntityFramework (versão 6.0.14)
 Microsoft.AspNetCore.Identity.UI (versão 6.0.14)
+
+
+dotnet ef migrations add AddDefaulSecurityTablesOnDB
+
+
