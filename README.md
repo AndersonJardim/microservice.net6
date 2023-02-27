@@ -33,3 +33,9 @@ remove-migration
 updade-database
 
 
+==== Duende.IdentityServer.Templates
+dotnet new --install Duende.IdentityServer.Templates
+md foo
+cd foo
+dotnet new isui
+
