@@ -1,5 +1,5 @@
-using GeekShopping.ProductAPI.Model.Base;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using GeekShopping.ProductAPI.Model.Base;
+using Microsoft.EntityFrameworkCore.Metadata.Internal; //verificar se precisava disso
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -29,6 +29,5 @@ namespace GeekShopping.ProductAPI.Model
         [Column("image_url")]
         [StringLength(300)]
         public string ImageURL { get; set; }
-
     }
 }
